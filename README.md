@@ -18,5 +18,5 @@ Add the `exec-and-forget` command to the `on-focus-changed` callback in your `.a
 on-focus-changed = ['exec-and-forget ~/projects/aerospace-dynamic-gaps/dynamic-gaps.sh']
 ```
 
-### Related projects:
+## Related projects
 - [AeroSpace](https://github.com/nikitabobko/AeroSpace)
