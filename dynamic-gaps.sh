@@ -12,7 +12,7 @@ width=${resolution[0]}
 height=${resolution[1]}
 is_not_wide_enough=$(echo "$width / $height < 3.5" | bc -l)
 
-if [ $is_not_wide_enough ]; then
+if [ $is_not_wide_enough -eq 1 ]; then
 	set_outer_gap "$gap"
 	exit 0	
 fi
